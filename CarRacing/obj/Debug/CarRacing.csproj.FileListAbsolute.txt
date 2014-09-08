@@ -1,0 +1,9 @@
+E:\Програмиране\C#\CarRacing\CarRacing\bin\Debug\CarRacing.exe.config
+E:\Програмиране\C#\CarRacing\CarRacing\bin\Debug\CarRacing.exe
+E:\Програмиране\C#\CarRacing\CarRacing\bin\Debug\CarRacing.pdb
+E:\Програмиране\C#\CarRacing\CarRacing\obj\Debug\CarRacing.csprojResolveAssemblyReference.cache
+E:\Програмиране\C#\CarRacing\CarRacing\obj\Debug\CarRacing.Form1.resources
+E:\Програмиране\C#\CarRacing\CarRacing\obj\Debug\CarRacing.Properties.Resources.resources
+E:\Програмиране\C#\CarRacing\CarRacing\obj\Debug\CarRacing.csproj.GenerateResource.Cache
+E:\Програмиране\C#\CarRacing\CarRacing\obj\Debug\CarRacing.exe
+E:\Програмиране\C#\CarRacing\CarRacing\obj\Debug\CarRacing.pdb
