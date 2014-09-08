@@ -47,7 +47,7 @@ namespace CarRacing
             {
                 for (int c = 0; c < col; c++)
                 {
-                    draw.DrawRectangle(new Pen(Brushes.Black), (startY + c * size), (startX + r * size), size, size);
+                    draw.FillRectangle(Brushes.Black, (startY + c * size), (startX + r * size), size, size);
                     if (matrix[r, c] == 1)
                     {
                         draw.FillRectangle(Brushes.DarkBlue, (startY + c * size), (startX + r * size), size, size);
@@ -58,6 +58,11 @@ namespace CarRacing
                     }
                 }
             }
+            float[] dashValues = { 2, 2, 2};
+            Pen whitePen = new Pen(Color.White, 4);
+            whitePen.DashPattern = dashValues;
+            draw.DrawLine(whitePen, new Point(95, 50), new Point(95, 300));
+            draw.DrawLine(whitePen, new Point(140, 50), new Point(140, 300));
 
         }
         public void ResetMatrix()
